@@ -1,0 +1,10 @@
+ .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .login img {
+    height: 80vh;
+    width: 50%;
+ }
