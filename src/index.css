@@ -4,7 +4,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
- 
+  height: 100vh;
+  background-image: url(./Components/Images/bg.png) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 code {
@@ -15,10 +19,13 @@ code {
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1500px;
+  padding-left: 1rem;
+  padding-right: 1rem;
   width: 100%;
-  height: 100vh;
-  background-image: url(./Components/Images/bg.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  margin: auto;
 }

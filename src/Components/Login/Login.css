@@ -1,10 +1,42 @@
- .login {
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
+.login {
+  position: relative;
+  margin-top: 3rem;
+}
 
- .login img {
-    height: 80vh;
-    width: 50%;
- }
+.login .bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.login .bg-img {
+  background: url(../Images/bck.jpg) no-repeat repeat center center/cover;
+  height: 96vh;
+  width: 35%;
+  border-radius: 2rem 0rem 0rem 2rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.login .bg-text {
+  float: left;
+  padding: 2.4rem;
+  color: #fff;
+}
+
+.login .bg-text h1 {
+  font-size: 4rem;
+}
+
+.login .bg-text p {
+  font-size: 1.3rem;
+}
+
+.form-content {
+  height: 96vh;
+  width: 80%;
+  background-color: #fff;
+  padding: 3rem;
+  border-radius: 0rem 2rem 2rem 0rem;
+
+}
