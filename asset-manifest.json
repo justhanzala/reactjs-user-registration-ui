@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/reactjs-user-registration-ui/static/css/main.f7741517.css",
+    "main.js": "/reactjs-user-registration-ui/static/js/main.7d56cce5.js",
+    "static/js/453.408530c5.chunk.js": "/reactjs-user-registration-ui/static/js/453.408530c5.chunk.js",
+    "static/media/bck.jpg": "/reactjs-user-registration-ui/static/media/bck.4a509a67999fd595365f.jpg",
+    "index.html": "/reactjs-user-registration-ui/index.html",
+    "main.f7741517.css.map": "/reactjs-user-registration-ui/static/css/main.f7741517.css.map",
+    "main.7d56cce5.js.map": "/reactjs-user-registration-ui/static/js/main.7d56cce5.js.map",
+    "453.408530c5.chunk.js.map": "/reactjs-user-registration-ui/static/js/453.408530c5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7741517.css",
+    "static/js/main.7d56cce5.js"
+  ]
+}
