@@ -15,15 +15,21 @@ export default function Navbar() {
             </a>
           </div>
           <div className="navbar-links">
+            <ul>
+              <a href="#login" target="_blank" rel="noreferrer">
+                <li>Login</li>
+              </a>
+            </ul>
+            <ul>
+                <a href="/">
+                  <li>Signup </li>
+                </a>
+            </ul>
+            <ul>
             <a href="/">
-              <span>Login </span>
+              <li>Forget Password</li>
             </a>
-            <a href="/">
-              <span>Signup </span>
-            </a>
-            <a href="/">
-              <span>Forget Password</span>
-            </a>
+            </ul>
           </div>
         </div>
       </div>
