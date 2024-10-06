@@ -4,7 +4,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 100vh;
+  /* height: 100vh; */
   background-image: url(./Components/Images/bg.png) ;
   background-position: center;
   background-repeat: no-repeat;
@@ -22,6 +22,11 @@ code {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
+
 .container {
   max-width: 1500px;
   padding-left: 1rem;
@@ -29,3 +34,5 @@ code {
   width: 100%;
   margin: auto;
 }
+
+

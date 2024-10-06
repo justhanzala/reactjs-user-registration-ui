@@ -1,5 +1,4 @@
 import React from "react";
-// import Background from "../Images/bck.jpg";
 import "../Login/Login.css";
 
 export default function Login() {

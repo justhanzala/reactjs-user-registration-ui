@@ -1,0 +1,21 @@
+.navbar {
+    /* position: fixed; */
+    background-color: rgb(255, 230, 234);
+    width: 100%;
+    z-index: 1;
+    /* top: 0; */
+} 
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.navbar-links span {
+    font-size: 1.5rem;
+    font-weight: 600;
+    gap: 2.2rem;
+    color: rgb(105, 255, 255);
+}
