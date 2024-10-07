@@ -1,5 +1,6 @@
 import React from "react";
 import "../Signup/Signup.css";
+import Logo from "../Images/signup.png";
 
 export default function Signup() {
   return (
@@ -7,29 +8,28 @@ export default function Signup() {
       <div className="container">
         <div className="signup-content">
           <div className="signup-info">
-          <h2>Sign in to your account</h2>
-          <div className="btn">
-                  <a href="#login" target="_blank" rel="noreferrer">
-                    <button type="button" className="btn-red">
-                      SIGN IN
-                    </button>
-                  </a>
-                  <a href="#signup" target="_blank" rel="noreferrer">
-                    <button type="button" className="btn-red">
-                      SIGN UP
-                    </button>
-                  </a>
-                </div>
+            <img src={Logo} alt="Signup" />
+            <h2>Sign in to your account</h2>
+            <div className="btn">
+              <a href="#login" target="_blank" rel="noreferrer">
+                <button type="button" className="btn-ablue">
+                  SIGN IN
+                </button>
+              </a>
+              <a href="#signup" target="_blank" rel="noreferrer">
+                <button type="button" className="btn-ablue">
+                  SIGN UP
+                </button>
+              </a>
+            </div>
           </div>
           <div className="form">
             <form>
               <label htmlFor="email"></label>
               <input
-                className="lform"
                 type="email"
                 name="email"
-                id="email"
-                required
+                id="s_email"
                 placeholder="EMAIL ID"
               />
             </form>
@@ -40,8 +40,7 @@ export default function Signup() {
               ></label>
               <input
                 type="password"
-                className="lform"
-                id="inputPassword"
+                id="s_inputPassword"
                 placeholder="PASSWORD"
               />
             </form>

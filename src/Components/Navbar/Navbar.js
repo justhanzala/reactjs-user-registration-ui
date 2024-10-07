@@ -21,14 +21,14 @@ export default function Navbar() {
               </a>
             </ul>
             <ul>
-                <a href="#signup">
-                  <li>Signup </li>
-                </a>
+              <a href="#signup">
+                <li>Signup </li>
+              </a>
             </ul>
             <ul>
-            <a href="/">
-              <li>Forget Password</li>
-            </a>
+              <a href="#forget">
+                <li>Forget Password</li>
+              </a>
             </ul>
           </div>
         </div>
