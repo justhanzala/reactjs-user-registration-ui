@@ -1,61 +1,47 @@
 .login {
   position: relative;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  width: 100%;
+  background-image: url(../Images/aquabg.jfif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.login .bg {
+.login .bg-content {
   display: flex;
   justify-content: center;
-}
-
-.login .bg-img {
-  background: url(../Images/bck.jpg) no-repeat repeat center center/cover;
-  width: 35%;
-  border-radius: 2rem 0rem 0rem 2rem;
+  border-radius: 2rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background: url(../Images/dark.jpg) no-repeat repeat center center/cover;
 }
 
 .login .bg-text {
-  float: left;
   padding: 3rem;
   color: #fff;
 }
 
-.login .bg-text h1 {
-  font-size: 4rem;
-}
-
-.login .bg-text p {
-  font-size: 1.2rem;
-}
-
 .form-content {
-  width: 100%;
-  background-color: #fff;
-  color: rgb(44, 44, 44);
-  padding: 4rem;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  padding: 5rem;
   font-weight: 600;
   word-spacing: 1px;
   border-radius: 0rem 2rem 2rem 0rem;
 }
 
 .form-content h2 {
-  font-size: 2.3rem;
   padding-bottom: 1.2rem;
-}
-
-.form-content p {
-  font-size: 1.2rem;
 }
 
 .form-content span {
   color: aqua;
 }
 
-form {
+.lform {
   width: 100%;
-
+  margin: 0.5rem;
 }
 
 .form input {
@@ -70,8 +56,6 @@ form {
 }
 
 .radio {
-  display: flex;
-  align-items: center;
   padding-top: 2rem;
   width: 100%;
   font-size: 1rem;
@@ -82,7 +66,6 @@ form {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: relative;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -100,20 +83,35 @@ form {
 .btn-red {
   background-color: red;
   padding: 1rem 2.2rem 1rem 2.2rem;
+}
 
+.btn-red:hover {
+  background-color: rgb(255, 79, 79);
 }
 
 .btn-blue {
   padding: 1rem 2rem 1rem 2rem;
-background-color: rgb(0, 0, 100) 
+  background-color: rgb(0, 0, 100);
+}
+
+.btn-blue:hover {
+  background-color: rgb(64, 64, 255);
 }
 
 .btn-lblue {
   padding: 1rem 2rem 1rem 2rem;
-background-color: rgb(72, 182, 255) 
+  background-color: rgb(18, 160, 255);
+}
+
+.btn-lblue:hover {
+  background-color: rgb(107, 196, 255);
 }
 
 .btn-orange {
   padding: 1rem 2rem 1rem 2rem;
-background-color: rgb(250, 102, 48) 
+  background-color: rgb(252, 75, 11);
+}
+
+.btn-orange:hover {
+  background-color: rgb(255, 146, 106);
 }

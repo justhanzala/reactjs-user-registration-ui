@@ -4,11 +4,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* height: 100vh; */
-  background-image: url(./Components/Images/bg.png) ;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+ 
 }
 
 code {
@@ -30,9 +26,20 @@ li {
   list-style: none;
 }
 
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+font-size: 2.3rem;
+}
+
+p {
+  font-size: 1.3rem;
+}
 
 .container {
-  max-width: 1500px;
+  max-width: 1300px;
   padding-left: 1rem;
   padding-right: 1rem;
   width: 100%;

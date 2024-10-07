@@ -16,12 +16,12 @@ export default function Navbar() {
           </div>
           <div className="navbar-links">
             <ul>
-              <a href="#login" target="_blank" rel="noreferrer">
+              <a href="#login">
                 <li>Login</li>
               </a>
             </ul>
             <ul>
-                <a href="/">
+                <a href="#signup">
                   <li>Signup </li>
                 </a>
             </ul>
