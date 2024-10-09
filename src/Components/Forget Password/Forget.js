@@ -17,6 +17,7 @@ export default function Forget() {
                 name="email"
                 id="f_email"
                 placeholder="EMAIL ID"
+                required
               />
             </form>
           </div>

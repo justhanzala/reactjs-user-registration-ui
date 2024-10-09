@@ -48,3 +48,32 @@ p, div {
   width: 100%;
   margin: auto;
 }
+
+@media (min-width: 100px) and (max-width: 800px) {
+  .container {
+    max-width: 700px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    width: 100%;
+    margin: auto;
+  }
+
+  .btn {
+    font-size: 0.7rem;
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.6rem;
+  }
+
+  h1 {
+    position: static;
+    font-size: 3rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  p, div {
+    font-size: 1rem;
+  }
+}

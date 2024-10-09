@@ -12,23 +12,35 @@
 .login .bg-content {
   display: flex;
   justify-content: center;
-  border-radius: 2rem;
+}
+
+.login .bg-img {
+  position: relative;
+}
+
+.login .bg-img img {
+  border-radius: 2rem 0rem 0rem 2rem;
+
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  background: url(../Images/dark.jpg) no-repeat repeat center center/cover;
+  height: 100%;
+  width: 100%;
 }
 
 .login .bg-text {
+  position: absolute;
   padding: 3rem;
   color: #fff;
 }
 
 .form-content {
+  padding: 3rem;
   background-color: rgb(0, 0, 0);
   color: #fff;
-  padding: 5rem;
+  width: 100%;
   font-weight: 600;
   word-spacing: 1px;
   border-radius: 0rem 2rem 2rem 0rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .form-content h2 {
@@ -39,7 +51,10 @@
   color: aqua;
 }
 
-#email, #name, #phone, #inputPassword {
+#email,
+#name,
+#phone,
+#inputPassword {
   width: 100%;
   margin: 0.5rem;
 }
@@ -59,11 +74,10 @@
   padding-top: 2rem;
   width: 100%;
   font-size: 1rem;
-
 }
 
 .radio input {
- margin: .7rem;
+  margin: 0.7rem;
 }
 
 .btn {
@@ -96,7 +110,6 @@
   padding: 1rem 2rem 1rem 2rem;
   background-color: rgb(0, 0, 100);
   color: #fff;
-
 }
 
 .btn-blue:hover {
@@ -107,7 +120,6 @@
   padding: 1rem 2rem 1rem 2rem;
   background-color: rgb(18, 160, 255);
   color: #fff;
-
 }
 
 .btn-lblue:hover {
@@ -118,9 +130,16 @@
   padding: 1rem 2rem 1rem 2rem;
   background-color: rgb(252, 75, 11);
   color: #fff;
-
 }
 
 .btn-orange:hover {
   background-color: rgb(255, 146, 106);
+}
+
+@media (min-width: 100px) and (max-width: 790px) {
+  .login .bg-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }

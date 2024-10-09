@@ -11,12 +11,12 @@ export default function Signup() {
             <img src={Logo} alt="Signup" />
             <h2>Sign in to your account</h2>
             <div className="btn">
-              <a href="#login" target="_blank" rel="noreferrer">
+              <a href="#login">
                 <button type="button" className="btn-ablue">
                   SIGN IN
                 </button>
               </a>
-              <a href="#signup" target="_blank" rel="noreferrer">
+              <a href="#signup">
                 <button type="button" className="btn-ablue">
                   SIGN UP
                 </button>
@@ -31,6 +31,7 @@ export default function Signup() {
                 name="email"
                 id="s_email"
                 placeholder="EMAIL ID"
+                required
               />
             </form>
             <form>
@@ -42,6 +43,7 @@ export default function Signup() {
                 type="password"
                 id="s_inputPassword"
                 placeholder="PASSWORD"
+                required
               />
             </form>
           </div>

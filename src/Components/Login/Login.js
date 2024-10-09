@@ -1,5 +1,6 @@
 import React from "react";
 import "../Login/Login.css";
+import Background from "../Images/dark.jpg";
 
 export default function Login() {
   return (
@@ -7,12 +8,14 @@ export default function Login() {
       <div id="login" className="login">
         <div className="container">
           <div className="bg-content">
-            <div className="bg-text">
-              <h1>Hello</h1>
-              <h1>World.</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div className="bg-img">
+              <div className="bg-text">
+                <h1>Hello</h1>
+                <h1>World.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+              <img src={Background} alt="" />
             </div>
-
             <div className="form">
               <div className="form-content">
                 <h2>Register</h2>
@@ -27,6 +30,7 @@ export default function Login() {
                     name="name"
                     id="name"
                     placeholder="NAME"
+                    required
                   />
                 </form>
                 <form>
@@ -36,7 +40,7 @@ export default function Login() {
                     name="email"
                     id="email"
                     placeholder="EMAIL ID"
-
+                    required
                   />
                 </form>
 
@@ -47,6 +51,7 @@ export default function Login() {
                   name="phone"
                   pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
                   placeholder="PHONE NO"
+                  required
                 />
                 <form>
                   <label
@@ -57,6 +62,7 @@ export default function Login() {
                     type="password"
                     id="inputPassword"
                     placeholder="PASSWORD"
+                    required
                   />
                 </form>
                 <form className="radio">
@@ -73,7 +79,7 @@ export default function Login() {
                   </label>
                 </form>
                 <div className="btn">
-                  <a href="#login" target="_blank" rel="noreferrer">
+                  <a href="#login">
                     <button type="button" className="btn-ablue">
                       LOGIN
                     </button>
