@@ -52,15 +52,12 @@
   background-color: rgb(96, 255, 255);
 }
 
-@media (min-width: 100px) and (max-width: 560px) {
-  .signup-content {
-    display: flex;
-    flex-wrap: wrap;
-    
-  }
-
+@media (min-width: 100px) and (max-width: 430px) {
   .signup-content .btn {
-    gap: 10rem;
+    gap: 8rem;
   }
 
+  .signup-content .btn-ablue {
+    padding: 0.9rem 1.8rem 0.9rem 1.8rem;
+  }
 }

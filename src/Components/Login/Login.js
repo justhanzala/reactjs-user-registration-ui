@@ -1,21 +1,24 @@
 import React from "react";
 import "../Login/Login.css";
-import Background from "../Images/dark.jpg";
+// import Background from "../Images/dark.jpg";
 
 export default function Login() {
   return (
     <>
       <div id="login" className="login">
         <div className="container">
-          <div className="bg-content">
-            <div className="bg-img">
-              <div className="bg-text">
+          <div className="login-content">
+            <div className="login-img">
+
+              <div className="login-text">
                 <h1>Hello</h1>
                 <h1>World.</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               </div>
-              <img src={Background} alt="" />
+            {/* <img src={Background} alt="" /> */}
+
             </div>
+
             <div className="form">
               <div className="form-content">
                 <h2>Register</h2>
@@ -118,7 +121,7 @@ export default function Login() {
                       </button>
                     </a>
                   </div>
-                </div>
+                  </div>
               </div>
             </div>
           </div>
