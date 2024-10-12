@@ -1,6 +1,7 @@
 import React from "react";
 import "../Navbar/Navbar.css";
 import Logo from "../Images/logo.png";
+import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -8,27 +9,35 @@ export default function Navbar() {
       <div className="container">
         <div className="navbar-content">
           <div animate="hidden" className="header-logo">
-            <a href="/">
+            {/* <a href="/"> */}
               <span className="logo-img">
                 <img src={Logo} height={60} alt="logo" />
               </span>
-            </a>
+            {/* </a> */}
           </div>
           <div className="navbar-links">
             <ul>
-              <a href="#login">
-                <li>Login</li>
-              </a>
+              {/* <a href="#login"> */}
+
+              <li>
+                <NavLink to="/">Login </NavLink>
+              </li>
+              {/* </a> */}
             </ul>
             <ul>
-              <a href="#signup">
-                <li>Signup </li>
-              </a>
+              {/* <a href="/signup"> */}
+              <li>
+                <NavLink to="/signup/">Signup </NavLink>{" "}
+              </li>
+              {/* </a> */}
             </ul>
             <ul>
-              <a href="#forget">
-                <li>Forget Password</li>
-              </a>
+              {/* <a href="#forget"> */}
+              <li>
+                {" "}
+                <NavLink to="/forget/">Forget Password</NavLink>
+              </li>
+              {/* </a> */}
             </ul>
           </div>
         </div>

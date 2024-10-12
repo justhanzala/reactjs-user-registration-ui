@@ -5,7 +5,7 @@ import "../Login/Login.css";
 export default function Login() {
   return (
     <>
-      <div id="login" className="login">
+      <div className="login">
         <div className="container">
           <div className="login-content">
             <div className="login-img">
