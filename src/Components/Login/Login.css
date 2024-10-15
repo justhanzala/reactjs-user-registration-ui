@@ -143,11 +143,20 @@
   .login .login-img {
     height: auto;
     width: 350px;
+    border-radius: 0rem 0rem 0rem 0rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
 
   .form-content {
     padding: 2rem;
     width: 350px;
+ 
+    border-radius: 0rem 0rem 0rem 0rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
+  .login-text {
+    border-bottom: 0rem;
   }
 
   .btn button {
