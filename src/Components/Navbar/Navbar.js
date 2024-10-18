@@ -16,19 +16,20 @@ export default function Navbar() {
             {/* </a> */}
           </div>
           <div className="navbar-links">
+           
             <ul>
-              {/* <a href="#login"> */}
-
+              {/* <a href="/signup"> */}
               <li>
-                <NavLink to="/">Login </NavLink>
+                <NavLink to="/login/">Login </NavLink>
               </li>
               {/* </a> */}
             </ul>
             <ul>
-              {/* <a href="/signup"> */}
+              {/* <a href="#login"> */}
               <li>
                 <NavLink to="/signup/">Signup </NavLink>{" "}
               </li>
+             
               {/* </a> */}
             </ul>
             <ul>

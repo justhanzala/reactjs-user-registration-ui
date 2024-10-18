@@ -1,172 +1,64 @@
 .login {
-  position: relative;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  background-image: url(../Images/aquabg.jfif);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.login .login-content {
-  display: flex;
-  justify-content: center;
-}
-
-.login .login-img {
-  font-weight: 600;
-  word-spacing: 1px;
-  border-radius: 2rem 0rem 0rem 2rem;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  background: url(../Images/dark.jpg) no-repeat repeat center center/cover;
-  position: relative;
-  height: auto;
-  width: 450px;
-}
-
-.login .login-text {
-  padding: 3rem;
-  color: #fff;
-}
-
-.form-content {
-  padding: 3rem;
-  background-color: rgb(0, 0, 0);
-  color: #fff;
-  width: 550px;
-  font-weight: 600;
-  word-spacing: 1px;
-  border-radius: 0rem 2rem 2rem 0rem;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-
-.form-content h2 {
-  padding-bottom: 1.2rem;
-}
-
-.form-content span {
-  color: aqua;
-}
-
-#email,
-#name,
-#phone,
-#inputPassword {
-  width: 100%;
-  margin: 0.5rem;
-}
-
-.form input {
-  border: none;
-  background-color: transparent;
-  border-bottom: 2px solid gray;
-  outline: none;
-  color: gray;
-  font-size: 1rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.radio {
-  padding-top: 2rem;
-  width: 100%;
-  font-size: 1rem;
-}
-
-.radio input {
-  margin: 0.7rem;
-}
-
-.btn {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.btn button {
-  margin-top: 2rem;
-  border: none;
-  border-radius: 2rem;
-  font-size: 1.2rem;
-  cursor: pointer;
-}
-
-.btn-ablue {
-  background-color: rgb(44, 255, 255);
-  color: #000;
-  padding: 1rem 2rem 1rem 2rem;
-}
-
-.btn-ablue:hover {
-  background-color: rgb(96, 255, 255);
-}
-
-.btn-blue {
-  padding: 1rem 1.5rem 1rem 1.5rem;
-  background-color: rgb(0, 0, 100);
-  color: #fff;
-}
-
-.btn-blue:hover {
-  background-color: rgb(64, 64, 255);
-}
-
-.btn-lblue {
-  padding: 1rem 1.5rem 1rem 1.5rem;
-  background-color: rgb(18, 160, 255);
-  color: #fff;
-}
-
-.btn-lblue:hover {
-  background-color: rgb(107, 196, 255);
-}
-
-.btn-orange {
-  padding: 1rem 1.5rem 1rem 1.5rem;
-  background-color: rgb(252, 75, 11);
-  color: #fff;
-}
-
-.btn-orange:hover {
-  background-color: rgb(255, 146, 106);
-}
-
-@media (min-width: 100px) and (max-width: 1000px) {
-  .login .login-content {
+    position: relative;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .login-content {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    text-align: center;
+    color: #fff;
   }
-
-  .login .login-img {
-    height: auto;
-    width: 350px;
-    border-radius: 0rem 0rem 0rem 0rem;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  
+  .login-content img {
+    height: 8rem;
+    opacity: 0.8;
+    padding-bottom: 2rem;
   }
-
-  .form-content {
-    padding: 2rem;
-    width: 350px;
- 
-    border-radius: 0rem 0rem 0rem 0rem;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  
+  .login-content .form {
+    width: 50%;
   }
-
-  .login-text {
-    border-bottom: 0rem;
+  
+  #s_email,
+  #s_inputPassword {
+    width: 100%;
+    margin: 0.5rem;
   }
-
-  .btn button {
-    margin-top: 1rem;
-    font-size: 0.8rem;
+  
+  .login .form input {
+    border: 2px solid gray;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding: 0.7rem;
   }
-
-  .btn-blue,
-  .btn-lblue,
-  .btn-orange {
-    padding: 0.8rem 1rem 0.8rem 1rem;
+  
+  .login-content .btn {
+    gap: 17rem;
   }
-}
+  
+  .login-content .btn-ablue {
+    background-color: rgb(44, 255, 255);
+    color: #000;
+    padding: 1rem 2.8rem 1rem 2.8rem;
+  }
+  
+  .login-content .btn-ablue:hover {
+    background-color: rgb(96, 255, 255);
+  }
+  
+  @media (min-width: 100px) and (max-width: 430px) {
+    .login-content .btn {
+      gap: 8rem;
+    }
+  
+    .login-content .btn-ablue {
+      padding: 0.9rem 1.8rem 0.9rem 1.8rem;
+    }
+  }
