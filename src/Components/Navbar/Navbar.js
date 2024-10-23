@@ -9,27 +9,29 @@ export default function Navbar() {
       <div className="container">
         <div className="navbar-content">
           <div animate="hidden" className="header-logo">
-            {/* <a href="/"> */}
-              <span className="logo-img">
-                <img src={Logo} height={60} alt="logo" />
-              </span>
-            {/* </a> */}
+            <a href="/">
+            <span className="logo-img">
+              <img src={Logo} height={60} alt="logo" />
+            </span>
+            </a>
           </div>
           <div className="navbar-links">
-           
             <ul>
               {/* <a href="/signup"> */}
               <li>
-                <NavLink to="/login/">Login </NavLink>
+                <NavLink  className={({ isActive }) =>
+                  `nav-link ${isActive ? "active" : ""}`
+                } to="/">Login 
+                 </NavLink>
               </li>
               {/* </a> */}
             </ul>
             <ul>
               {/* <a href="#login"> */}
               <li>
-                <NavLink to="/signup/">Signup </NavLink>{" "}
+                <NavLink to="/signup/">Signup </NavLink>
               </li>
-             
+
               {/* </a> */}
             </ul>
             <ul>
